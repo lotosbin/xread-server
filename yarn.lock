@@ -1109,7 +1109,7 @@
 
 "@types/bson@*":
   version "4.0.0"
-  resolved "http://r.cnpmjs.org/@types/bson/download/@types/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
+  resolved "https://r.cnpmjs.org/@types/bson/download/@types/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
   integrity sha1-kHN3JnnXSRFusd/KVvjqrG1ZzHo=
   dependencies:
     "@types/node" "*"
@@ -1177,14 +1177,14 @@
 
 "@types/jsonwebtoken@^8.3.4":
   version "8.3.4"
-  resolved "http://r.cnpmjs.org/@types/jsonwebtoken/download/@types/jsonwebtoken-8.3.4.tgz#93c10c3d0a04bf31a507f89803e7df90a7a90889"
+  resolved "https://r.cnpmjs.org/@types/jsonwebtoken/download/@types/jsonwebtoken-8.3.4.tgz#93c10c3d0a04bf31a507f89803e7df90a7a90889"
   integrity sha1-k8EMPQoEvzGlB/iYA+ffkKepCIk=
   dependencies:
     "@types/node" "*"
 
 "@types/lodash@^4.14.138":
   version "4.14.138"
-  resolved "http://r.cnpmjs.org/@types/lodash/download/@types/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
+  resolved "https://r.cnpmjs.org/@types/lodash/download/@types/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
   integrity sha1-NPUmQNc1gjAwg0TlecFbN42RmJ4=
 
 "@types/long@^4.0.0":
@@ -1211,7 +1211,7 @@
 
 "@types/mongodb@^3.3.1":
   version "3.3.1"
-  resolved "http://r.cnpmjs.org/@types/mongodb/download/@types/mongodb-3.3.1.tgz#9569ffcb356fbb5313ae2d3afa88c230bf8cf0d1"
+  resolved "https://r.cnpmjs.org/@types/mongodb/download/@types/mongodb-3.3.1.tgz#9569ffcb356fbb5313ae2d3afa88c230bf8cf0d1"
   integrity sha1-lWn/yzVvu1MTri06+ojCML+M8NE=
   dependencies:
     "@types/bson" "*"
@@ -1219,7 +1219,7 @@
 
 "@types/node-fetch@^2.5.1":
   version "2.5.1"
-  resolved "http://r.cnpmjs.org/@types/node-fetch/download/@types/node-fetch-2.5.1.tgz#9e4daffa983eb098d25c2cb410c949678f3aee78"
+  resolved "https://r.cnpmjs.org/@types/node-fetch/download/@types/node-fetch-2.5.1.tgz#9e4daffa983eb098d25c2cb410c949678f3aee78"
   integrity sha1-nk2v+pg+sJjSXCy0EMlJZ4867ng=
   dependencies:
     "@types/node" "*"
@@ -1236,7 +1236,7 @@
 
 "@types/ramda@^0.26.22":
   version "0.26.22"
-  resolved "http://r.cnpmjs.org/@types/ramda/download/@types/ramda-0.26.22.tgz#4506cf76b53191d17fce473bc3de529ece6f4886"
+  resolved "https://r.cnpmjs.org/@types/ramda/download/@types/ramda-0.26.22.tgz#4506cf76b53191d17fce473bc3de529ece6f4886"
   integrity sha1-RQbPdrUxkdF/zkc7w95Sns5vSIY=
   dependencies:
     ts-toolbelt "^3.8.75"
@@ -1261,7 +1261,7 @@
 
 "@types/utf8@^2.1.6":
   version "2.1.6"
-  resolved "http://r.cnpmjs.org/@types/utf8/download/@types/utf8-2.1.6.tgz#430cabb71a42d0a3613cce5621324fe4f5a25753"
+  resolved "https://r.cnpmjs.org/@types/utf8/download/@types/utf8-2.1.6.tgz#430cabb71a42d0a3613cce5621324fe4f5a25753"
   integrity sha1-QwyrtxpC0KNhPM5WITJP5PWiV1M=
 
 "@types/ws@^6.0.0":
@@ -2450,7 +2450,7 @@ domexception@^1.0.1:
 
 dotenv@^8.1.0:
   version "8.1.0"
-  resolved "http://r.cnpmjs.org/dotenv/download/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
+  resolved "https://r.cnpmjs.org/dotenv/download/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
   integrity sha1-2BHheGUr+4oeWTxt1wTsfpDYXqI=
 
 duplexer2@~0.1.4:
@@ -2919,9 +2919,9 @@ fsevents@^1.2.7:
     node-pre-gyp "^0.10.0"
 
 fstream@~1.0.10:
-  version "1.0.11"
-  resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.11.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
-  integrity sha1-XB+x8RdHcRTwYyoOtLcbPLD9MXE=
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.12.tgz#4e8ba8ee2d48be4f7d0de505455548eae5932045"
+  integrity sha512-WvJ193OHa0GHPEL+AycEJgxvBEwyfRkN1vhjca23OaPVMCaLCXTd5qAu82AjTcgP1UJmytkOKb63Ypde7raDIg==
   dependencies:
     graceful-fs "^4.1.2"
     inherits "~2.0.0"
@@ -3006,7 +3006,7 @@ glob@7.1.2:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@7.1.3, glob@^7.0.0, glob@^7.1.2, glob@^7.1.3:
+glob@7.1.3, glob@^7.0.0, glob@^7.1.2:
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
   integrity sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==
@@ -3022,6 +3022,18 @@ glob@^7.1.1:
   version "7.1.4"
   resolved "https://registry.npm.taobao.org/glob/download/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
   integrity sha1-qmCKL2xXetNX4a5aXCbZqNGWklU=
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.1.3:
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
+  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -3055,15 +3067,10 @@ got@^7.1.0:
     url-parse-lax "^1.0.0"
     url-to-options "^1.0.1"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
-  version "4.1.15"
-  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.15.tgz#ffb703e1066e8a0eeaa4c8b80ba9253eeefbfb00"
-  integrity sha512-6uHUhOPEBgQ24HM+r6b/QwWfZq+yiFcipKFrOFiBEnWdy5sdzYoi+pJeQaPI5qOLRFqWmAXUPQNsielzdLoecA==
-
-graceful-fs@^4.1.15:
-  version "4.2.1"
-  resolved "https://registry.npm.taobao.org/graceful-fs/download/graceful-fs-4.2.1.tgz#1c1f0c364882c868f5bff6512146328336a11b1d"
-  integrity sha1-HB8MNkiCyGj1v/ZRIUYygzahGx0=
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.3.tgz#4a12ff1b60376ef09862c2093edd908328be8423"
+  integrity sha512-a30VEBm4PEdx1dRB7MFK7BejejvCvBronbLjht+sHuGYj8PHs7M/5Z+rt5lw551vZ7yfTCj4Vuyy3mSJytDWRQ==
 
 graphql-extensions@0.5.4:
   version "0.5.4"
@@ -3350,7 +3357,12 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@2.0.3, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.0, inherits@~2.0.1, inherits@~2.0.3:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
+  integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+
+inherits@2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
@@ -4121,7 +4133,7 @@ jsonfile@^4.0.0:
 
 jsonwebtoken@^8.5.1:
   version "8.5.1"
-  resolved "http://r.cnpmjs.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
+  resolved "https://r.cnpmjs.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
   integrity sha1-AOceC431TCEhofJhN98igGc7zA0=
   dependencies:
     jws "^3.2.2"
@@ -5661,9 +5673,9 @@ retry@0.12.0:
   integrity sha1-G0KmJmoh8HQh0bC1S33BZ7AcATs=
 
 rimraf@2, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
-  integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
+  integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
   dependencies:
     glob "^7.1.3"
 
@@ -6344,7 +6356,7 @@ ts-node@^8.3.0:
 
 ts-toolbelt@^3.8.75:
   version "3.14.0"
-  resolved "http://r.cnpmjs.org/ts-toolbelt/download/ts-toolbelt-3.14.0.tgz#f4c4984cf4e988915a0175fd6a8ded00bd1d23b0"
+  resolved "https://r.cnpmjs.org/ts-toolbelt/download/ts-toolbelt-3.14.0.tgz#f4c4984cf4e988915a0175fd6a8ded00bd1d23b0"
   integrity sha1-9MSYTPTpiJFaAXX9ao3tAL0dI7A=
 
 tslib@^1.9.3:
