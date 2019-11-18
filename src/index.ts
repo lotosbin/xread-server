@@ -3,6 +3,7 @@ import {ApolloServer, gql} from "apollo-server";
 import fs from "fs";
 import resolvers from "./resolvers";
 import {getUser} from "./oauth";
+import {ApolloServerExpressConfig} from "apollo-server-express";
 
 const typeDefs = gql`${fs.readFileSync(__dirname.concat('/schema.graphql'), 'utf8')}`;
 (async () => {
@@ -10,7 +11,11 @@ const typeDefs = gql`${fs.readFileSync(__dirname.concat('/schema.graphql'), 'utf
         typeDefs,
         resolvers,
     });
-    let config: any = {
+    let config: ApolloServerExpressConfig = {
+        cors: {
+            origin: '*',
+            credentials: true
+        },
         schema: schema,
         context: ({req}) => {
             // get the user token from the headers
