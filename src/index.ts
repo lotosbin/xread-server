@@ -24,7 +24,7 @@ const typeDefs = gql`${fs.readFileSync(__dirname.concat('/schema.graphql'), 'utf
         },
     };
     const server = new ApolloServer(config);
-    server.listen({port: 4000}).then(({url}) => {
+    server.listen({port: process.env.PORT || 4000}).then(({url}) => {
         console.log(`🚀  Server ready at ${url}`);
     });
 
