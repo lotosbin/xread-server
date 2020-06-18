@@ -1,8 +1,0 @@
-{
-    "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
-        ".vscode{,/**}"
-    ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/49a8f812-e786-4da3-98e1-fe3b99c20d09/resourceGroups/xread/providers/Microsoft.Web/sites/xread-server",
-    "appService.deploySubpath": ""
-}
