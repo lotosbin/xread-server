@@ -1,6 +1,6 @@
-FROM node:8-alpine
+FROM node:12-alpine
 COPY ./ /src/
 WORKDIR /src/
-RUN yarn
-CMD yarn start
+RUN yarn && yarn build
+CMD yarn start:prod
 EXPOSE 4000
