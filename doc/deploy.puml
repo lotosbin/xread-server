@@ -1,0 +1,69 @@
+@startuml
+  node "clients"{
+    [fever client]
+     [graphql client]
+  }
+
+node server{
+  node "fever api interface"{
+    [fever]
+    [fever-recommend]
+  }
+  node "graphql group"{
+   [graphql]
+   [graphql-recommend]
+  }
+
+  [feed]
+  node "recommend scope"{
+    learn - [recommend]
+    recommend - [recommend]
+    [recommend-task]
+    [RecommendStorageService]
+    [RecommendBaiduService]
+    database "recommend storage"{
+      ["recommend database"]
+    }
+  }
+  node "remote server"{
+    [feed-fever]
+    [fever-api]
+  }
+
+
+  node "local rss servers"{
+    [feed-local]
+    database "local"{
+      ["local feed"]
+    }
+  }
+}
+
+
+node "third rss servers"{
+  [ttrss]
+  [ttrss1]
+}
+node "baidu ai server"{
+  [baidu-ai-api]
+}
+[fever client]--> [fever]: normal read
+[fever client]--> [fever-recommend]: recommend read
+[fever]-->[graphql]
+[fever-recommend]-->[graphql-recommend]
+[feed-local]-->["local feed"]
+[feed-fever]-->[fever-api]
+[fever-api]-->[ttrss]
+[fever-api]-->[ttrss1]
+[graphql client]--> [graphql]:normal read
+[graphql client]--> [graphql-recommend]:recommend read
+[graphql]-->[feed]
+[graphql-recommend]--->[RecommendStorageService]
+[RecommendStorageService]-->["recommend database"]
+[graphql]-->[recommend]: learn & recommend
+[feed]-->[feed-fever]
+[feed]-->[feed-local]
+[recommend-task]-->[recommend]
+[recommend]-->[RecommendBaiduService]
+[RecommendBaiduService]-->[baidu-ai-api]
+@enduml

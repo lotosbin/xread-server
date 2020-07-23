@@ -1,0 +1,39 @@
+@startuml
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+size()
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+class FeedService
+
+class FeedLocalService
+class FeedFeverService
+FeedService <|-- FeedLocalService
+FeedService <|-- FeedFeverService
+class RecommendService
+class RecommendBaiduService
+RecommendService <|-- RecommendBaiduService
+class RecommendTaskService
+RecommendTaskService --> RecommendService
+RecommendTaskService --> FeedService
+class RecommendStorageService
+RecommendTaskService --> RecommendStorageService
+@enduml

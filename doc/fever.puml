@@ -1,0 +1,6 @@
+@startuml
+client -> server : use fever api or graphql
+server -> "third server(support fever api)": use fever-api(ex. fever-api-ttrss)
+@enduml
+
+

@@ -1,0 +1,19 @@
+@startuml
+
+package "x-read" {
+[data provider adapter rss]
+[data source adapter rss]
+}
+
+package "x-recommend" {
+  [data provider]
+  [data source]
+  learn -- [recommend service]
+  recommend -- [recommend service]
+}
+[data source] --> learn
+[data provider] --> recommend
+[data provider adapter rss]-->[data provider]
+[data source adapter rss]-->  [data source]
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+actor user
+autonumber
+alt third client
+user -> client: normal read
+client -> server: fever api
+server -> "fever": get data
+
+user -> client: recommend read
+client -> server: fever recommend api
+server -> "fever-recommend": get data
+
+else local client
+user -> client
+client -> server: graphql api
+server -> service: get data
+end
+alt fever
+service-> "feed-fever"
+else local
+service-> "feed-local"
+end
+@enduml
