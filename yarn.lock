@@ -1109,7 +1109,7 @@
 
 "@types/bson@*":
   version "4.0.0"
-  resolved "http://r.cnpmjs.org/@types/bson/download/@types/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
+  resolved "https://r.cnpmjs.org/@types/bson/download/@types/bson-4.0.0.tgz#9073772679d749116eb1dfca56f8eaac6d59cc7a"
   integrity sha1-kHN3JnnXSRFusd/KVvjqrG1ZzHo=
   dependencies:
     "@types/node" "*"
@@ -1177,14 +1177,14 @@
 
 "@types/jsonwebtoken@^8.3.4":
   version "8.3.4"
-  resolved "http://r.cnpmjs.org/@types/jsonwebtoken/download/@types/jsonwebtoken-8.3.4.tgz#93c10c3d0a04bf31a507f89803e7df90a7a90889"
+  resolved "https://r.cnpmjs.org/@types/jsonwebtoken/download/@types/jsonwebtoken-8.3.4.tgz#93c10c3d0a04bf31a507f89803e7df90a7a90889"
   integrity sha1-k8EMPQoEvzGlB/iYA+ffkKepCIk=
   dependencies:
     "@types/node" "*"
 
 "@types/lodash@^4.14.138":
   version "4.14.138"
-  resolved "http://r.cnpmjs.org/@types/lodash/download/@types/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
+  resolved "https://r.cnpmjs.org/@types/lodash/download/@types/lodash-4.14.138.tgz#34f52640d7358230308344e579c15b378d91989e"
   integrity sha1-NPUmQNc1gjAwg0TlecFbN42RmJ4=
 
 "@types/long@^4.0.0":
@@ -1211,7 +1211,7 @@
 
 "@types/mongodb@^3.3.1":
   version "3.3.1"
-  resolved "http://r.cnpmjs.org/@types/mongodb/download/@types/mongodb-3.3.1.tgz#9569ffcb356fbb5313ae2d3afa88c230bf8cf0d1"
+  resolved "https://r.cnpmjs.org/@types/mongodb/download/@types/mongodb-3.3.1.tgz#9569ffcb356fbb5313ae2d3afa88c230bf8cf0d1"
   integrity sha1-lWn/yzVvu1MTri06+ojCML+M8NE=
   dependencies:
     "@types/bson" "*"
@@ -1219,7 +1219,7 @@
 
 "@types/node-fetch@^2.5.1":
   version "2.5.1"
-  resolved "http://r.cnpmjs.org/@types/node-fetch/download/@types/node-fetch-2.5.1.tgz#9e4daffa983eb098d25c2cb410c949678f3aee78"
+  resolved "https://r.cnpmjs.org/@types/node-fetch/download/@types/node-fetch-2.5.1.tgz#9e4daffa983eb098d25c2cb410c949678f3aee78"
   integrity sha1-nk2v+pg+sJjSXCy0EMlJZ4867ng=
   dependencies:
     "@types/node" "*"
@@ -1236,7 +1236,7 @@
 
 "@types/ramda@^0.26.22":
   version "0.26.22"
-  resolved "http://r.cnpmjs.org/@types/ramda/download/@types/ramda-0.26.22.tgz#4506cf76b53191d17fce473bc3de529ece6f4886"
+  resolved "https://r.cnpmjs.org/@types/ramda/download/@types/ramda-0.26.22.tgz#4506cf76b53191d17fce473bc3de529ece6f4886"
   integrity sha1-RQbPdrUxkdF/zkc7w95Sns5vSIY=
   dependencies:
     ts-toolbelt "^3.8.75"
@@ -1261,7 +1261,7 @@
 
 "@types/utf8@^2.1.6":
   version "2.1.6"
-  resolved "http://r.cnpmjs.org/@types/utf8/download/@types/utf8-2.1.6.tgz#430cabb71a42d0a3613cce5621324fe4f5a25753"
+  resolved "https://r.cnpmjs.org/@types/utf8/download/@types/utf8-2.1.6.tgz#430cabb71a42d0a3613cce5621324fe4f5a25753"
   integrity sha1-QwyrtxpC0KNhPM5WITJP5PWiV1M=
 
 "@types/ws@^6.0.0":
@@ -2450,7 +2450,7 @@ domexception@^1.0.1:
 
 dotenv@^8.1.0:
   version "8.1.0"
-  resolved "http://r.cnpmjs.org/dotenv/download/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
+  resolved "https://r.cnpmjs.org/dotenv/download/dotenv-8.1.0.tgz#d811e178652bfb8a1e593c6dd704ec7e90d85ea2"
   integrity sha1-2BHheGUr+4oeWTxt1wTsfpDYXqI=
 
 duplexer2@~0.1.4:
@@ -4121,7 +4121,7 @@ jsonfile@^4.0.0:
 
 jsonwebtoken@^8.5.1:
   version "8.5.1"
-  resolved "http://r.cnpmjs.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
+  resolved "https://r.cnpmjs.org/jsonwebtoken/download/jsonwebtoken-8.5.1.tgz#00e71e0b8df54c2121a1f26137df2280673bcc0d"
   integrity sha1-AOceC431TCEhofJhN98igGc7zA0=
   dependencies:
     jws "^3.2.2"
@@ -4731,15 +4731,10 @@ node-fetch@1.7.3:
     encoding "^0.1.11"
     is-stream "^1.0.1"
 
-node-fetch@^2.1.1:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
-  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
-
-node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.3.0.tgz#1a1d940bbfb916a1d3e0219f037e89e71f8c5fa5"
-  integrity sha512-MOd8pV3fxENbryESLgVIeaGKrdl+uaYhCSSVkjeOb/31/njTpcis5aWfdqgNlHIrKOLRbMnfPINPOML2CIFeXA==
+node-fetch@^2.1.1, node-fetch@^2.1.2, node-fetch@^2.2.0, node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
 
 node-int64@^0.4.0:
   version "0.4.0"
@@ -6344,7 +6339,7 @@ ts-node@^8.3.0:
 
 ts-toolbelt@^3.8.75:
   version "3.14.0"
-  resolved "http://r.cnpmjs.org/ts-toolbelt/download/ts-toolbelt-3.14.0.tgz#f4c4984cf4e988915a0175fd6a8ded00bd1d23b0"
+  resolved "https://r.cnpmjs.org/ts-toolbelt/download/ts-toolbelt-3.14.0.tgz#f4c4984cf4e988915a0175fd6a8ded00bd1d23b0"
   integrity sha1-9MSYTPTpiJFaAXX9ao3tAL0dI7A=
 
 tslib@^1.9.3:
