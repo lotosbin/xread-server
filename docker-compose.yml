@@ -1,0 +1,9 @@
+version: '2'
+services:
+  server:
+    build: .
+    environment:
+      - TTRSS_FEVER_ENDPOINT=${TTRSS_FEVER_ENDPOINT}
+      - TTRSS_FEVER_USERNAME=${TTRSS_FEVER_USERNAME}
+      - TTRSS_FEVER_PASSWORD=${TTRSS_FEVER_PASSWORD}
+
