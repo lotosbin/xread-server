@@ -1,12 +1,24 @@
-import _ from "lodash";
+import * as _ from 'lodash';
 
-export function makeConnection(getArticles: any) {
+export function makeConnection(getArticles: (args: any) => Promise<any>) {
     return async (args: any) => {
-        let {first, after, last, before} = args;
-        const articles: any = await getArticles({...args, first: first + 1, last: last ? last + 1 : last});
-        let edges = articles.slice(0, last ? last : first).map((it: any) => ({cursor: (it._id || it.id).toString(), node: it})) || [];
-        let start = _.chain(edges).first().value();
-        let end = _.chain(edges).last().value();
+        let { first, after, last, before } = args;
+        const articles: any = await getArticles({
+            ...args,
+            first: first + 1,
+            last: last ? last + 1 : last,
+        });
+        let edges =
+            articles.slice(0, last ? last : first).map((it: any) => ({
+                cursor: (it._id || it.id).toString(),
+                node: it,
+            })) || [];
+        let start = _.chain(edges)
+            .first()
+            .value();
+        let end = _.chain(edges)
+            .last()
+            .value();
         return {
             pageInfo: {
                 startCursor: start ? start.cursor : null,
@@ -14,7 +26,7 @@ export function makeConnection(getArticles: any) {
                 hasNextPage: !!(articles.length > (last ? last : first)),
                 hasPreviousPage: !!(last ? before : after),
             },
-            edges: edges
-        }
-    }
+            edges: edges,
+        };
+    };
 }

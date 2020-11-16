@@ -1,0 +1,6 @@
+type Viewer{
+  recommend_articles(first:Int,after:String,last:Int,before:String): ArticleConnection
+}
+type Query{
+  recommend_articles(first:Int,after:String,last:Int,before:String): ArticleConnection
+}
