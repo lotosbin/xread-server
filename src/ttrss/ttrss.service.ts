@@ -1,14 +1,16 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { ApiFactory } from 'ttrss-js-api';
+import { ApiFactory, Api } from 'ttrss-js-api';
 import { Cron } from '@nestjs/schedule';
+import { ConfigService } from '@nestjs/config';
 
 
 @Injectable()
 export class TtrssService {
-    api = ApiFactory.build('http://192.168.31.58:181/api/');
     logger = new Logger(TtrssService.name);
+    private api: Api;
 
-    constructor() {
+    constructor(configService: ConfigService) {
+        this.api = ApiFactory.build(configService.get<string>('TTRSS_API_ENDPOINT'));
     }
 
     async test() {
